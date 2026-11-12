@@ -1,0 +1,29 @@
+{
+  "name": "reavideo/shotlist",
+  "description": "Parse a plain-text shot list into shots, timings and cut statistics.",
+  "type": "library",
+  "license": "MIT",
+  "keywords": ["video", "shot list", "storyboard", "editing", "timecode"],
+  "homepage": "https://reavideo.pro/",
+  "require": {
+    "php": ">=8.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Reavideo\\Shotlist\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Reavideo\\Shotlist\\Tests\\": "tests/"
+    }
+  },
+  "scripts": {
+    "test": "php tests/run.php"
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-main": "1.0.x-dev"
+    }
+  }
+}
